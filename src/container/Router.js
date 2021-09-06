@@ -1,5 +1,6 @@
 import ReadonlyTable from '../pages/table/ReadonlyTable'
 import EditTable from '../pages/table/EditTable'
+import DndDemo from '../pages/dnd'
 
 export const routers = [
 	{
@@ -16,5 +17,10 @@ export const routers = [
 		path: '/form',
 		key: '/form',
 		component: EditTable,
+	},
+	{
+		path: '/dnd',
+		key: '/dnd',
+		component: DndDemo,
 	},
 ]

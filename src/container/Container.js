@@ -1,5 +1,5 @@
 import React from 'react'
-import { AntMenu } from '../components/Menu'
+import SecondNavigation from '../components/SecondNavigation'
 
 import GlobalNavigation from '../components/GlobalNavigation'
 import * as actions from '../actions/MenuActions'
@@ -40,7 +40,7 @@ class Container extends React.Component {
 				</div>
 				<div id="main">
 					<div id="sidebar">
-						<AntMenu onClick={this.onClickMenu} />
+						<SecondNavigation onClick={this.onClickMenu} />
 					</div>
 					<div id="content">
 						<div

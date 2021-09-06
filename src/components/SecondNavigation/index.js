@@ -7,7 +7,7 @@ import {
 
 const { SubMenu } = Menu
 
-export function AntMenu(props) {
+export default function SecondNavigation(props) {
 	const handleClick = (e) => {
 		const { onClick } = props
 		if (onClick) onClick(e)
@@ -32,7 +32,7 @@ export function AntMenu(props) {
 				</Menu.ItemGroup>
 				<Menu.ItemGroup key="g3" title="Workflow">
 					<Menu.Item key="/bpmn">Bpmn</Menu.Item>
-					<Menu.Item key="4">Option 4</Menu.Item>
+					<Menu.Item key="/dnd">Dnd Demo</Menu.Item>
 				</Menu.ItemGroup>
 			</SubMenu>
 			<SubMenu

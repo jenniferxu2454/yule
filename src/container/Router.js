@@ -1,6 +1,7 @@
 import ReadonlyTable from '../pages/table/ReadonlyTable'
 import EditTable from '../pages/table/EditTable'
 import DndDemo from '../pages/dnd'
+import Error from '../pages/Error'
 
 export const routers = [
 	{
@@ -22,5 +23,10 @@ export const routers = [
 		path: '/dnd',
 		key: '/dnd',
 		component: DndDemo,
+	},
+	{
+		path: '/error',
+		key: '/error',
+		component: Error,
 	},
 ]

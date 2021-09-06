@@ -28,7 +28,7 @@ export default function SecondNavigation(props) {
 				</Menu.ItemGroup>
 				<Menu.ItemGroup key="g2" title="Form">
 					<Menu.Item key="/form">Form Summary</Menu.Item>
-					<Menu.Item key="4">Option 4</Menu.Item>
+					<Menu.Item key="/error">Error</Menu.Item>
 				</Menu.ItemGroup>
 				<Menu.ItemGroup key="g3" title="Workflow">
 					<Menu.Item key="/bpmn">Bpmn</Menu.Item>

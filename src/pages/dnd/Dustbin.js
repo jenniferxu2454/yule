@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 import { DropTarget } from 'react-dnd'
 import { ItemType } from './DndType'
-import { connect } from 'react-redux'
 
 const style = {
 	height: '12rem',

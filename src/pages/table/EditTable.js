@@ -1,4 +1,4 @@
-import Table from '../../components/Datagrid/bootstrapDemo'
+import Table from '@component/Datagrid'
 
 export default function EditTable() {
 	return <Table />

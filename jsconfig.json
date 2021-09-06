@@ -6,8 +6,8 @@
 		"module": "commonjs",
 		"allowSyntheticDefaultImports": true,
 		"paths": {
-			// "@": ["./*"],
-			"@component/*": ["src/components/*"],
+			"@": ["./*"],
+			"@components/*": ["src/components/*"],
 			"@actions/*": ["src/actions/*"],
 			"@reducer/*": ["src/reducer/*"]
 		}
